@@ -1,0 +1,94 @@
+
+body {
+  background-color: #A3B2BF;
+  
+}
+
+header {
+  background-color: #77828C;
+  background-image: url("../images/aboutheader.png"); 
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 200px, 100px;
+  color: #89BAD9;
+  font-family: Georgia, Palatino, serif;
+  font-size: 30px;
+  height: 120px;
+  padding: 8px;
+  
+  
+
+}
+
+section {
+  background-color: #F0F1F2;
+  
+  }
+
+article {
+    border: 2px solid black;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+
+    
+}
+
+.top{
+	border: none;
+	font-size: 21px;
+	padding: 30px;
+	text-align: center;
+  margin-top: 0px;
+
+	
+}
+
+footer {
+	margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+p {
+	width: 1100px
+	font-size: 16px;
+	font-family: arial,sans-serif;
+}
+
+h2{
+	font-size: 22px;
+	font-family: arial,sans-serif;
+}
+
+
+/* --- Nav Bar --- */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: arial,sans-serif;
+}
+
+nav li {
+  float: left;
+  
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+  /* This is a three digit code. Same as #111111 */
+  background-color: #111;
+}
+
