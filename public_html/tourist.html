@@ -7,34 +7,57 @@
 <head>
 	<meta charset="utf-8">
 
-	<link rel="stylesheet" type="text/css" href="css/css_capitalcity.css">
+	
 
 	<title>Camping, Hiking, and Fishing</title>
 
-	<style>
-  
-  table {
-      text-align: center;
-      margin: auto;
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
 
-  }
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cerulean/bootstrap.min.css" integrity="sha384-3fdgwJw17Bi87e1QQ4fsLn4rUFqWw//KU0g8TvV6quvahISRewev6/EocKNuJmEw" crossorigin="anonymous">
 
-  th {
-  background-color: #C7D1D9;
-  padding: 5px
-  
-}
-  th, td {
-  border-left: 1px solid #ddd;
-  padding: 5px;
-}
+    <!-- If you don't like how sandstone looks, go here and see other themes
+         that are available:
+         https://bootswatch.com/
 
-  .tabletitle {
-  font-style: italic;
-  font-size: 18px
-}
-  </style>
+         You can replace the 'optional theme' with links from the page below
+         to get that theme:
+         https://www.bootstrapcdn.com/bootswatch/
+    -->
+    <style>
+      .mycolor {
+        background-color: #DFEBFF;
+        border: 1px solid black;
+        padding: 8px;
+        margin-top: 3px;
+        }
+
+      .container {
+        background-color: #9EE4FE;
+        
+      }
+
+      .top {
+        background-color: #FFFFEE;
+        border: none;
+        font-size: 21px;
+        padding: 30px;
+        text-align: center;
+      }
+
+      #table{
+        text-align: center;
+        margin: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+
+      }
+</style>
+
 
 </head>
 
@@ -47,85 +70,114 @@
       
 </header>
 
-<nav>
-        <ul>
-			<li><a href="index.html">Welcome Page</a></li>
+<!-- For more info about the navbar, see:
+    https://getbootstrap.com/docs/4.0/components/navbar/
+    --->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Capital City</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-			<li><a href="tourist.html">Camping, Hiking, and Fishing</a></li>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-			<li><a href="food.html">Food</a></li>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+            
+          </li>
 
-			<li><a href="southpier.html">The Southpier</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
 
-			<li><a href="sports.html"> The Stingrays</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="food.html">Food</a>
+          </li>
 
-			<li><a href="about.html">History and Information</a></li>
-		</ul>
-</nav>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Things To Do
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="tourist.html">Camping, Hiking, Fishing</a>
+              <a class="dropdown-item" href="southpier.html">Southpier</a>
+              <a class="dropdown-item" href="sports.html">Sports</a>
+            </div>
+          </li>
+        </ul>
 
-<section>
-<article class="top">
-<P>Capital City offers an extensive range of outdoor activities for the whole family! Want to cool off at the beech? How about a wooded adventure in the Appalachian Mountains? What about a nice fishing trip to one of our lakes or rivers? Then check out Capital City!</P>
-</article>
+      </div>
+    </nav>
+  
+<div class="container">
 
-<article>
+<div class="alert alert-success" role="alert">
+  Attention: Campground 2 is currently closed due to recent bear attacks!
+</div>
+
+
+<div class="top" >
+<h4>Capital City offers an extensive range of outdoor activities for the whole family! Want to cool off at the beech? How about a wooded adventure in the Appalachian Mountains? What about a nice fishing trip to one of our lakes or rivers? Then check out Capital City!</h4>
+</div>
+
+<div class="mycolor">
 <h2>Camping</h2>
 <p>Just outside of Capital City, we have twenty different campgrounds. Eight of these campgrounds offer support for both tent and RV-Camping. The other twelve are only tent camping. These sites provide there very own trails to hike and ponds, rivers, and lakes to fish in.</p>
 
 <p>All of these locations are held up by highly trained wildlife experts and park rangers. This keeps our visitors safe from wildlife and makes sure the ecosystem of our beautiful countryside stays healthy so others can enjoy it.</p>
-</article>
+</div>
 
-<article>
+<div class="mycolor">
 <h2>Hiking</h2>
 <p>With all twenty of our campgrounds offering their trails to hike, there is something for every skill level. Whether you are just starting or you are a seasoned veteran, we have a trail for you. The shortest trails we have range from thirty minutes to an hour, depending on how long you stop to soak in the scenery. The longest trails we have last between seven to eight days to complete. These trails are sure to test your skills as a hiker, but they give you a taste of the countryside you couldn't find anywhere else.</p>
 
 <p>We also offer tour guides to hike with you so that you don't miss anything on your fantastic adventure. This is a great way to learn about these locations' wildlife and some historical information about the surrounding area. Along with hiking tour guides, we offer some guides into caves that scatter the vast countryside. These cave tour guides are a great way to cool off and learn more about the beautiful wildlife and nature here in South Carolina.</p>
 
+<div id="table">
+	<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col" colspan="3"><u>Campground 1</u></th>
+      <th scope="col" colspan="3"><u>Campground 2</u></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Low Trail</td>
+      <td>Medium Trail</td>
+      <td>High Trail</td>
+      <td>Low Trail</td>
+      <td>Medium Trail</td>
+      <td>Extreme Trail</td>
+    </tr>
+    <tr>
+      <td>50 Minutes</td>
+      <td>2-3 Hours</td>
+      <td>7-9 Hours</td>
+      <td>20 Minutes</td>
+      <td>2-3 Hours</td>
+      <td>1-2 Days</td>
+    </tr>
+    <tr>
+      <td>Family Fun</td>
+      <td>Strong Hiker</td>
+      <td>Veteran Hiker</td>
+      <td>Kid Friendly</td>
+      <td>Strong Hiker</td>
+      <td>Wild Hiker</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
 
-	<table>
-		<thead>
-			<tr>
-    			<th class="tabletitle" colspan="3"><u>Campground 1</u></th>
-    			<th class="tabletitle" colspan="3"><u>Campground 2</u></th>
-  			</tr> 
-    		<tr>
-      			<td>Low Trail</td>
-      			<td>Medium Trail</td>
-     			<td>High Trail</td>
-     			<td>Low Trail</td>
-      			<td>Medium Trail</td>
-     			<td>Extreme Trail</td>
-    		</tr>
-  		</thead>
-  		<tbody>
-    		<tr>
-      			<td>50 Minutes</td>
-      			<td>2-3 Hours</td>
-      			<td>7-9 Hours</td>
-      			<td>20 Minutes</td>
-      			<td>2-3 Hours</td>
-      			<td>1-2 Days</td>
-    		</tr>
-  		</tbody>
-  		<tfoot>
-   			<tr>
-      			<td>Family Fun</td>
-      			<td>Strong Hiker</td>
-      			<td>Veteran Hiker</td>
-      			<td>Kid Friendly</td>
-      			<td>Strong Hiker</td>
-      			<td>Wild Hiker</td>
-    		</tr>
-  		</tfoot>
-  	</table>
-</article>
-
-<article>
+<div class="mycolor">
 <h2>Fishing</h2> 
 	<p>Fishing is a great way to spend the day as a family or alone. Fishing on all the campsites is strictly caught and release; this allows the river, pond, and lake ecosystems to stay healthy. South Carolina has a wide variety of fish from freshwater to saltwater. During your fishing trip, you can hire one of our many fishing tour guides to take you out to all of the great locations to catch fish. There is nothing better than having a great day of fishing.</p>
 
 	<P>Salt Water fishing is another great way to spend your day. It is highly recommended that you book one of your saltwater fishing guides. Don't have the equipment yourself. That's ok; during your time with the fishing guide, they will provide all of the gear and bait for a fun day out at the ocean.</P>
-</article>
+</div>
 
 
 	
@@ -136,7 +188,14 @@
 	<p>City Hall Address: 123 Main Street, Capital City, SC 529041</p>
 	<img src="images/touristfooter.png"  alt = "tourist footer">
 </footer>
-</section>
+
+</div>
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 
 </html>

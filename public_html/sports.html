@@ -6,8 +6,59 @@
 
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/css_capitalcity.css">
+	
 	<title>The Stingrays</title>
+
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cerulean/bootstrap.min.css" integrity="sha384-3fdgwJw17Bi87e1QQ4fsLn4rUFqWw//KU0g8TvV6quvahISRewev6/EocKNuJmEw" crossorigin="anonymous">
+
+    <!-- If you don't like how sandstone looks, go here and see other themes
+         that are available:
+         https://bootswatch.com/
+
+         You can replace the 'optional theme' with links from the page below
+         to get that theme:
+         https://www.bootstrapcdn.com/bootswatch/
+    -->
+    <style>
+      .mycolor {
+        background-color: #DFEBFF;
+        border: 1px solid black;
+      padding: 8px;
+      margin-top: 3px;
+      }
+
+      .container {
+        background-color: #9EE4FE;
+        
+      }
+
+      .top {
+        background-color: #FFFFEE;
+        border: none;
+        font-size: 21px;
+        padding: 30px;
+        text-align: center;
+      }
+
+
+	   #jumbotron {
+      	background-color: gold;
+      	padding: 5px;
+      }
+
+      .display{
+      	font: black;
+      }
+
+      }
+</style>
 </head>
 
 <body>
@@ -18,42 +69,77 @@
       
  </header>
 
-<nav>
-        <ul>
-			<li><a href="index.html">Welcome Page</a></li>
+<!-- For more info about the navbar, see:
+    https://getbootstrap.com/docs/4.0/components/navbar/
+    --->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Capital City</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-			<li><a href="tourist.html">Camping, Hiking, and Fishing</a></li>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-			<li><a href="food.html">Food</a></li>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+            
+          </li>
 
-			<li><a href="southpier.html">The Southpier</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
 
-			<li><a href="sports.html"> The Stingrays</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="food.html">Food</a>
+          </li>
 
-			<li><a href="about.html">History and Information</a></li>
-		</ul>
-</nav>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Things To Do
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="tourist.html">Camping, Hiking, Fishing</a>
+              <a class="dropdown-item" href="southpier.html">Southpier</a>
+              <a class="dropdown-item" href="sports.html">Sports</a>
+            </div>
+          </li>
+        </ul>
 
-<section>
+      </div>
+    </nav>
+<div class="container">
 
-	<article class= "top">
+<div class="jumbotron jumbotron-fluid">
+  <div id="jumbotron">
+    <h1 class="display-4">The Stingrays Win!</h1>
+    <p class="lead">The Stingrays beat the Broncos last Sunday 42-35 in high scoring affair! Patrick Hill throws for 4 TD passes for a season high! The Stringrays play the Bears next Sunday.</p>
+  </div>
+</div>
+
+
+	<div class="top">
 		Capital City is home to two of the most successful professional sports team in the country! Want to check out some football? Want to watch a baseball game? Then go check out the Stingrays!
 
-	</article>
+	</div>
 
-	<article>
+	<div class="row">
+        <div class="mycolor col-12 col-md-6">
 		<h2>Baseball</h2>
 		<p> If you love baseball than our team is the team to cheer for! The Stingrays, our Major League Baseball team, is known for their number of World Series Titles. The Stingrays have won Titles and broken records for the past decade, definently showing off the talent that resides in Capital City! Inside a beautiful statium, watching the Stingrays hit dinggers and making great plays is always a fanastic experience. The head coach, Robret Thomas, says it's always enjoying to see fans in the stands!</p>
 		<img src="images/baseballfield.png"  alt = "baseball"
 				width = "600">
-	</article>
+		</div>
+	
 
-	<article>
+		<div class="mycolor col-12 col-md-6">
 		<h2>Football</h2>
 		<p> The Stingrays, an NFL football team, just made an apprance in Super Bowl LIV, defending there name in a 31-20 win! Along with a Super Bowl win, several players on the Stingrays hold many records that are yet to be beat. Capital Statium is a great place to catch a game. With an addicting atmosphere at the game, you will definitely be wanting to see another game!</p>
 		<img src="images/footballfield.png"	alt = "football"
-				width = "600">>
-	</article>
+				width = "500">
+		</div>
+	</div>
+
 	
 	<footer>
 		<p> Copyright 2020 by Captial City &copy;</p>
@@ -62,7 +148,14 @@
 		<img src="images/touristfooter.png" alt = "tourist footer">
 	</footer>
 
-</section>
+
+</div>
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -6,8 +6,55 @@
 
 <head>	
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/css_capitalcity.css">
+	
 	<title>Food</title>
+
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cerulean/bootstrap.min.css" integrity="sha384-3fdgwJw17Bi87e1QQ4fsLn4rUFqWw//KU0g8TvV6quvahISRewev6/EocKNuJmEw" crossorigin="anonymous">
+
+    <!-- If you don't like how sandstone looks, go here and see other themes
+         that are available:
+         https://bootswatch.com/
+
+         You can replace the 'optional theme' with links from the page below
+         to get that theme:
+         https://www.bootstrapcdn.com/bootswatch/
+    -->
+    <style>
+      .mycolor {
+        background-color: #DFEBFF;
+        border: 1px solid black;
+      padding: 8px;
+      margin-top: 3px;
+      }
+
+      .container {
+        background-color: #9EE4FE;
+        
+      }
+
+      .top {
+        background-color: #FFFFEE;
+        border: none;
+        font-size: 21px;
+        padding: 30px;
+        text-align: center;
+      }
+
+      #table{
+        text-align: center;
+        margin: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+
+      }
+</style>
 </head>
 
 <body>
@@ -18,47 +65,72 @@
       
 </header>
 
-<nav>
-        <ul>
-			<li><a href="index.html">Welcome Page</a></li>
+<!-- For more info about the navbar, see:
+    https://getbootstrap.com/docs/4.0/components/navbar/
+    --->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Capital City</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-			<li><a href="tourist.html">Camping, Hiking, and Fishing</a></li>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-			<li><a href="food.html">Food</a></li>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+            
+          </li>
 
-			<li><a href="southpier.html">The Southpier</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
 
-			<li><a href="sports.html"> The Stingrays</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="food.html">Food</a>
+          </li>
 
-			<li><a href="about.html">History and Information</a></li>
-		</ul>
-</nav>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Things To Do
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="tourist.html">Camping, Hiking, Fishing</a>
+              <a class="dropdown-item" href="southpier.html">Southpier</a>
+              <a class="dropdown-item" href="sports.html">Sports</a>
+            </div>
+          </li>
+        </ul>
 
-<section>
+      </div>
+    </nav>
+<div class="container">
 
-	<article class= "top">
-		No city is great without some worldclass food! Check out these world renown restaurants located thorughout Capital City!
 
-	</article>
+	<div class="top">
+		<h3>No city is great without some worldclass food! Check out these world renown restaurants located thorughout Capital City!</h3>
 
-	<article>
+	</div>
+
+	<div class="mycolor">
 		<h2>Kebab It</h2>
 		<p>If you love fruit than this is your place to go! You can create your own combination of whatever style you want. From plain fruit to chocolate dipped strawberries and bananas. The beauty of Kebab It is that it is located on Southpier which is a great destination spot.</p>
+		
 		<img src="images/headerfood.png" alt = "food header"
 		width= "300">
-	</article>
+	</div>
 
-	<article>
+	<div class="mycolor">
 		<h2>L'ultima Cena</h2>
 		<p>In the mood for a candle lit dinner? Or just a fancy sit down restaurant? Then L'ultima Cena is the place for you. Translated to the meaning of The Last Supper, you can find some amazing dishes at this restaurtant, such as pesce, spaghetti alle vongole, or pizza pugliese. Always served with a pane on the side and a fine bottle of Vino. After all this deliciousness, if you are still hungry you can follow up with dessert. L'ultima Cena offers amazing options such as Tiramisu, Souffle, and Semifreddo. 
 		<img src="images/foodfooter.png" alt = "food footer"
 		width= "300">
-	</article>
+	</div>
 
-	<article>
+	<div class="mycolor">
 		<h2>The Shed</h2>
 		<p>Ever just craving some good greasy food? Well The Shed is the place for you. From huge cheeseburgers to yummy steaks, you won't run out of options here. Their amazing sides include french fries, potato chips, onion rings and more. But if you are just in the mood for something light then go try a range of salad option, like the cobb or fajita salad. Last but not least desserts. Donuts, key lime pie and German chocolate pie there is never enough options at The Shed.</p>
-	</article>
+	</div>
 
 	<footer>
 		<p> Copyright 2020 by Captial City &copy;</p>
@@ -66,7 +138,14 @@
 		<p> City Hall Address: 123 Main Street, Capital City, Sc 529041</p>
 		<img src="images/touristfooter.png"  alt = "tourist footer"> 
 	</footer>
-</section>
+
+</div>
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 
 </html>

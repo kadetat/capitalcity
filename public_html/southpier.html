@@ -6,8 +6,56 @@
 
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/css_capitalcity.css">
+	
 	<title>The Southpier</title>
+
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cerulean/bootstrap.min.css" integrity="sha384-3fdgwJw17Bi87e1QQ4fsLn4rUFqWw//KU0g8TvV6quvahISRewev6/EocKNuJmEw" crossorigin="anonymous">
+
+    <!-- If you don't like how sandstone looks, go here and see other themes
+         that are available:
+         https://bootswatch.com/
+
+         You can replace the 'optional theme' with links from the page below
+         to get that theme:
+         https://www.bootstrapcdn.com/bootswatch/
+    -->
+    <style>
+      .mycolor {
+        background-color: #DFEBFF;
+        border: 1px solid black;
+      padding: 8px;
+      margin-top: 3px;
+      }
+
+      .container {
+        background-color: #9EE4FE;
+        
+      }
+
+      .top {
+        background-color: #FFFFEE;
+        border: none;
+        font-size: 21px;
+        padding: 30px;
+        text-align: center;
+      }
+
+      #table{
+        text-align: center;
+        margin: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+
+      }
+</style>
+
 </head>
 
 <body>
@@ -18,46 +66,70 @@
       
  </header>
 
-<nav>
-        <ul>
-			<li><a href="index.html">Welcome Page</a></li>
+<!-- For more info about the navbar, see:
+    https://getbootstrap.com/docs/4.0/components/navbar/
+    --->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Capital City</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-			<li><a href="tourist.html">Camping, Hiking, and Fishing</a></li>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-			<li><a href="food.html">Food</a></li>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+            
+          </li>
 
-			<li><a href="southpier.html">The Southpier</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
 
-			<li><a href="sports.html"> The Stingrays</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="food.html">Food</a>
+          </li>
 
-			<li><a href="about.html">History and Information</a></li>
-		</ul>
-</nav>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Things To Do
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="tourist.html">Camping, Hiking, Fishing</a>
+              <a class="dropdown-item" href="southpier.html">Southpier</a>
+              <a class="dropdown-item" href="sports.html">Sports</a>
+            </div>
+          </li>
+        </ul>
 
-<section>
+      </div>
+    </nav>
+<div class="container">
 
-	<article class= "top">
-		One of the most popular things to do in Capital City is walking around the Southpier! With tons of things to do for people of all ages, this attraction is a must visit for every tourist.
 
-	</article>
+	<div class="top">
+		<h4>One of the most popular things to do in Capital City is walking around the Southpier! With tons of things to do for people of all ages, this attraction is a must visit for every tourist.</h4>
 
-	<article>
+	</div>
+
+	<div class="mycolor">
 		<h2>What is the Southpier?</h2>
 		<p>Southpier is located on the Southern beach of Capital City. Southpier is a recent addition to the lovely city and attracts hundreds of tourists each year. There are tons of fun things to do on Southpier after a day at the beach. Ever get tired of being in a hot sun and need a break? The Southpier has comfy hammocks under the shade of palm trees!</p>
 		<img src="images/southpierheader.png"  alt = "southpier header">
-	</article>
+	</div>
 
-	<article>
+	<div class="mycolor">
 		<h2>Food, Fruit, and Fun</h2>
 
 		<p>Southpier offers a lovely view of the ocean while providing an abundance of delicious food options which you can find on our Foods page. Find seafood, fruit stands, amazing desserts and much more! Enjoy cute little food stands or fancy sit down restaurants with an outlook of the beach! Ever had a fruit kebab? Make your own at Kebab It, name a fruit and you will have it!</p>
-	</article>
+	</div>
 
-	<article>
+	<div class="mycolor">
 		<h2>All the Fun!</h2>
 		<img src="images/southpierfooter.png"	alt = "southpier footer">
 		<p>If you ever need a relaxing walk, think about how amazing a long walk across a beauiful prier would be! While walking, check out the many attractions! There is a huge arcade offering many different games for young kids. Next to the Pier is the ski shop! Offering several different fun activites such as jet skiing, paddle boarding, and floaties for the kids. </p>
-	</article>
+	</div>
 		
 	
 	<footer>
@@ -67,7 +139,14 @@
 		<img src="images/touristfooter.png" alt = "tourist footer">
 	</footer>
 
-</section>
+
+</div>
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 
 </html>
